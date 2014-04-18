@@ -598,11 +598,13 @@
   <ItemGroup>
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.CSharp" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.CSharp.ExpressionCompiler" />
+    <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FSharp" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.VisualBasic" />
     <InternalsVisibleTo Include="rcsc" />
     <InternalsVisibleTo Include="rcsi" />
     <InternalsVisibleTo Include="Roslyn.Scripting.Common" />
     <InternalsVisibleTo Include="Roslyn.Scripting.CSharp" />
+    <InternalsVisibleTo Include="Roslyn.Scripting.FSharp" />
     <InternalsVisibleTo Include="Roslyn.Scripting.VisualBasic" />
     <InternalsVisibleTo Include="rvbc" />
     <InternalsVisibleTo Include="rvbi" />
@@ -616,6 +618,14 @@
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Symbol.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Syntax.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Test.Utilities" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.CommandLine.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Emit.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.EnC.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.ExpressionCompiler.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Semantic.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Symbol.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Syntax.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Test.Utilities" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.Test.Utilities2" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.VisualBasic.CommandLine.UnitTests" />
@@ -635,6 +645,7 @@
     <InternalsVisibleToTest Include="Roslyn.InteractiveHost.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Scripting.Common.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Scripting.CSharp.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Scripting.FSharp.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Scripting.VisualBasic.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Test.Utilities" />
   </ItemGroup>

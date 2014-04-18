@@ -32,6 +32,10 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo(""Roslyn.Compilers.CSharp.UnitTests"")]
 [assembly: InternalsVisibleTo(""Roslyn.Compilers.CSharp.Test.Utilities"")]
 
+[assembly: InternalsVisibleTo(""Roslyn.Compilers.FSharp"")]
+[assembly: InternalsVisibleTo(""Roslyn.Compilers.FSharp.UnitTests"")]
+[assembly: InternalsVisibleTo(""Roslyn.Compilers.FSharp.Test.Utilities"")]
+
 [assembly: InternalsVisibleTo(""Roslyn.Compilers.VisualBasic"")]
 class C
 {

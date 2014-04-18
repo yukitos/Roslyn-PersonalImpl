@@ -76,6 +76,13 @@
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Symbol.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Syntax.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.CSharp.Test.Utilities" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.CommandLine.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Emit.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.EnC.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Semantic.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Symbol.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Syntax.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Compilers.FSharp.Test.Utilities" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.VisualBasic.CommandLine.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Compilers.VisualBasic.Emit.UnitTests" />

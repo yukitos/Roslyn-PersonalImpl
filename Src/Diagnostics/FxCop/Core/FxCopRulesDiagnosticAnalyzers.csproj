@@ -55,6 +55,10 @@
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.CSharp.Features" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.CSharp.FxCopAnalyzers" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.CSharp.FxCopDiagnosticFixers" />
+    <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FSharp.EditorFeatures" />
+    <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FSharp.Features" />
+    <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FSharp.FxCopAnalyzers" />
+    <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FSharp.FxCopDiagnosticFixers" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.EditorFeatures" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.EditorFeatures.Text" />
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.FxCopDiagnosticFixers" />
@@ -64,6 +68,7 @@
     <InternalsVisibleTo Include="Microsoft.CodeAnalysis.VisualBasic.FxCopDiagnosticFixers" />
     <InternalsVisibleTo Include="Microsoft.VisualStudio.LanguageServices" />
     <InternalsVisibleTo Include="Microsoft.VisualStudio.LanguageServices.CSharp" />
+    <InternalsVisibleTo Include="Microsoft.VisualStudio.LanguageServices.FSharp" />
     <InternalsVisibleTo Include="Microsoft.VisualStudio.LanguageServices.VisualBasic" />
     <InternalsVisibleTo Include="Roslyn.CSharp.InteractiveEditorFeatures" />
     <InternalsVisibleTo Include="Roslyn.InteractiveEditorFeatures" />
@@ -77,6 +82,7 @@
     <InternalsVisibleToTest Include="Roslyn.InteractiveWindow.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.InteractiveWindow.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Services.Editor.CSharp.UnitTests" />
+    <InternalsVisibleToTest Include="Roslyn.Services.Editor.FSharp.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Services.Editor.UnitTests" />
     <InternalsVisibleToTest Include="Roslyn.Services.Editor.UnitTests2" />
     <InternalsVisibleToTest Include="Roslyn.Services.Editor.VisualBasic.UnitTests" />
